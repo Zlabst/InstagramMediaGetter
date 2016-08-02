@@ -102,15 +102,15 @@ class MainClass
   Returns string picture description ;
 
 <ul>
-  <h3><li>4.GetPostUrl()</li></h3></ul>
+  <h3><li>5.GetPostUrl()</li></h3></ul>
   Returns url link to post string ;
 
 <ul>
-  <h3><li>GetId()</li></h3></ul>
+  <h3><li>6.GetId()</li></h3></ul>
   Returns string photoId;
   
 <ul>
-  <h3><li>GetMoreAvailable()</li></h3></ul>
+  <h3><li>7.GetMoreAvailable()</li></h3></ul>
   Returns bool if more data is available;
 <h2>License</h2>
 MIT
