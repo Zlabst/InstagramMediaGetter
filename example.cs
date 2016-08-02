@@ -1,5 +1,5 @@
 ﻿using System;
-namespace instagramMediaGetter
+namespace InstagramMediaGetter
 {
 	class MainClass
 	{
