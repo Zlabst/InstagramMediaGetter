@@ -20,12 +20,13 @@ class MainClass
 MIT
 <h2>MediaGetter methods</h2>
 <ul>
-  <h3><li>1.GetUserId()</li></h3>
+  <h3><li>1.GetUserId()</li></h3></ul>
+  Returns user id string or if account is private error string:Error:private account
   example:
-  ```C#
-  var username="yandex";
-  MediaGetter media = new MediaGetter (username);
+```C#
+	var username="yandex";
+	MediaGetter media = new MediaGetter (username);
 	Console.Write (media.GetUserId());
-  ```
+```
   
-</ul>
+
