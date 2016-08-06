@@ -6,14 +6,16 @@ This soft allows you to get user info and media without any accounts and api's.O
 Just copy files and use:
 ```C#
 using System;
-using InstagramMediaGetter;
-class MainClass
+namespace InstagramMediaGetter
 {
-	public static void Main (string[] args)
+	class MainClass
 	{
-		var username="yandex";
-		MediaGetter media = new MediaGetter (username);
-		Console.Write (media.GetUserId());
+		public static void Main (string[] args)
+		{
+			var username="yandex";
+			MediaGetter media = new MediaGetter (username);
+			Console.Write (media.GetUserId());
+		}
 	}
 }
 ```
