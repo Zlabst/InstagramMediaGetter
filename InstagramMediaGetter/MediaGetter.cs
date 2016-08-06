@@ -70,7 +70,7 @@ namespace InstagramMediaGetter
         /// <returns>string User Id or error string</returns>
         public string GetUserId()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_id != null)
                 {
@@ -86,7 +86,7 @@ namespace InstagramMediaGetter
         /// <returns>Url string or error string</returns>
         public string GetProfilePictureHdUrl()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_profilePicUrlHD != null)
                 {
@@ -102,7 +102,7 @@ namespace InstagramMediaGetter
         /// <returns>Url string or error string</returns>
         public string GetProfilePictureUrl()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_profilePicUrl != null)
                 {
@@ -119,7 +119,7 @@ namespace InstagramMediaGetter
         /// if account is private return null</returns>
         public bool? GetVerified()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_isVerified != null)
                 {
@@ -135,7 +135,7 @@ namespace InstagramMediaGetter
         /// <returns>string biography or error string</returns>
         public string GetBiography()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_biography != null)
                 {
@@ -151,7 +151,7 @@ namespace InstagramMediaGetter
         /// <returns>follows count int or null if user is private</returns>
         public int? GetFollowsCount()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_followsCount != null)
                 {
@@ -167,7 +167,7 @@ namespace InstagramMediaGetter
         /// <returns>followed by count int or null if user is private</returns>
         public int? GetFollowedByCount()
         {
-            if (_isPrivate)
+            if (!_isPrivate)
             {
                 if (_followedByCount != null)
                 {
