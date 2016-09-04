@@ -1,8 +1,8 @@
 # InstagramMediaGetter
-Simple instagram media getter.Provides you basic info about user and his media.Only public accounts are supported.
+Simple instagram media getter.Provides you basic info about user and his media.Only public accounts are supported.No api keys or registration are needed.
 
 <h2>Introduction</h2>
-This soft allows you to get user info and media without any accounts and api's.Only http.requests.
+This soft allows you to get user info and media without any accounts and api's.Only http requests.
 Just copy files and use:
 ```C#
 using System;
